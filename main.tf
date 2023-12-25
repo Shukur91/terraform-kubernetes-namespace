@@ -8,6 +8,24 @@ resource "kubernetes_namespace" "example" {
       mylabel = "label-value"
     }
 
-    name = "terraform-example-namespace"
+    name = var.name
   }
 }
+
+
+
+
+
+
+# variable "name" {
+#   type        = string
+#   default     = ""
+#   description = "description"
+# }
+
+
+# variable "name" {
+#   type        = string
+#   default     = ""
+#   description = "description"
+# }
