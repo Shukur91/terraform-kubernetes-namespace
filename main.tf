@@ -13,19 +13,3 @@ resource "kubernetes_namespace" "example" {
 }
 
 
-
-
-
-
-# variable "name" {
-#   type        = string
-#   default     = ""
-#   description = "description"
-# }
-
-
-# variable "name" {
-#   type        = string
-#   default     = ""
-#   description = "description"
-# }
