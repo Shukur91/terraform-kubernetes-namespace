@@ -13,3 +13,8 @@ resource "kubernetes_namespace" "example" {
 }
 
 
+output name {
+  value       = kubernetes_namespace.example.metadata.name
+  description = "Prints out the name of the namespace"
+  
+}
